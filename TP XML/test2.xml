@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canvas SYSTEM "test2.dtd">
+<canvas>
+  <polygone nbrcote="4" etat="vide" zorder="1">
+    <nom>Rectangle</nom>
+  </polygone>
+  <cercle etat="vide" zorder="2">
+    <nom>Cercle</nom>
+  </cercle>
+  <polygone nbrcote="6" etat="vide" zorder="3">
+    <nom>Polygone</nom>
+  </polygone>
+  <polygone nbrcote="3" etat="pleine" zorder="4">
+    <nom>Triangle</nom>
+  </polygone>
+</canvas>

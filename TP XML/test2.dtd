@@ -1,0 +1,14 @@
+<!ELEMENT canvas (polygone*, cercle*)>
+
+<!ELEMENT polygone (nom)>
+<!ATTLIST polygone
+    nbrcote CDATA #REQUIRED
+    etat (vide | pleine | hachuree) #REQUIRED
+    zorder CDATA #REQUIRED>
+
+<!ELEMENT cercle (nom)>
+<!ATTLIST cercle
+    etat (vide | pleine | hachuree) #REQUIRED
+    zorder CDATA #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>

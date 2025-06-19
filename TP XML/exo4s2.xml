@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="exo4s2.xsd">
+    
+    <!-- Premier livre -->
+    <livre>
+        <titre sousTitre="Une histoire de rédemption">Les Misérables</titre>
+        <auteur>Victor Hugo</auteur>
+        <tomes>
+            <tome nbPages="450" sousTitre="Fantine"/>
+            <tome nbPages="400" sousTitre="Cosette"/>
+            <tome nbPages="380" sousTitre="Marius"/>
+        </tomes>
+        <infosEdition>
+            <editeur>Gallimard</editeur>
+            <lieuEdition>Paris</lieuEdition>
+            <lieuImpression>Lyon</lieuImpression>
+            <ISBN>2070308359</ISBN> <!-- 10 chiffres exactement, conforme au typeISBN -->
+        </infosEdition>
+        <avis>Un chef-d'œuvre de la littérature française</avis>
+    </livre>
+    
+    <!-- Deuxième livre -->
+    <livre>
+        <titre>Le Petit Prince</titre>
+        <auteur>Antoine de Saint-Exupéry</auteur>
+        <tomes>
+            <tome nbPages="96"/>
+        </tomes>
+        <infosEdition>
+            <editeur>Gallimard</editeur>
+            <lieuEdition>Paris</lieuEdition>
+            <lieuImpression>Paris</lieuImpression>
+            <ISBN>2070408507</ISBN> <!-- 10 chiffres exactement -->
+        </infosEdition>
+    </livre>
+    
+    <!-- Premier article -->
+    <article>
+        <titre sousTitre="État de l'art">L'intelligence artificielle et ses applications</titre>
+        <auteur>Marie Dupont</auteur>
+        <auteur>Jean Martin</auteur>
+        <infosPublication nomJournal="Revue Scientifique Internationale">
+            <pages>45</pages> <!-- Maintenant un entier positif -->
+            <anneePublication>2023</anneePublication> <!-- Maintenant un gYear -->
+            <numéroJournal>42</numéroJournal> <!-- Maintenant un entier positif -->
+        </infosPublication>
+        <avis>Article très instructif sur les dernières avancées en IA</avis>
+    </article>
+    
+    <!-- Deuxième article -->
+    <article>
+        <titre>Structures de données XML pour les bases documentaires</titre>
+        <auteur>Philippe Leclerc</auteur>
+        <infosPublication>
+            <pages>16</pages> <!-- Entier positif -->
+            <anneePublication>2022</anneePublication> <!-- gYear -->
+            <numéroJournal>15</numéroJournal> <!-- Entier positif -->
+        </infosPublication>
+    </article>
+    
+    <!-- Troisième article avec valeur par défaut pour nomJournal -->
+    <article>
+        <titre>Introduction aux schémas XML</titre>
+        <auteur>Sophie Martin</auteur>
+        <infosPublication> <!-- Utilise la valeur par défaut "Feuille de Chou" pour nomJournal -->
+            <pages>8</pages>
+            <anneePublication>2024</anneePublication>
+            <numéroJournal>3</numéroJournal>
+        </infosPublication>
+    </article>
+    
+</biblio>

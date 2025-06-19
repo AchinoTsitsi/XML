@@ -1,0 +1,15 @@
+<!ELEMENT entreprise (personne+, projet+)>
+
+<!ELEMENT personne (nom)>
+<!ATTLIST personne 
+    id ID #REQUIRED
+    projets IDREFS #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+
+<!ELEMENT projet (nom, descriptif)>
+<!ATTLIST projet 
+    id ID #REQUIRED
+    responsable IDREFS #REQUIRED>
+
+<!ELEMENT descriptif (#PCDATA)>

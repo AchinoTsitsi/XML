@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="exo2s2.xsd">
+    
+    <!-- Premier livre -->
+    <livre>
+        <titre>Les Misérables</titre>
+        <auteur>Victor Hugo</auteur>
+        <tomes>
+            <tome>
+                <pages>450</pages>
+            </tome>
+            <tome>
+                <pages>400</pages>
+            </tome>
+        </tomes>
+        <infosEdition>
+            <editeur>Gallimard</editeur>
+            <lieuEdition>Paris</lieuEdition>
+            <lieuImpression>Lyon</lieuImpression>
+            <ISBN>978-2-07-030835-8</ISBN>
+        </infosEdition>
+        <avis>Un chef-d'œuvre de la littérature française</avis>
+    </livre>
+    
+    <!-- Deuxième livre -->
+    <livre>
+        <titre>Le Petit Prince</titre>
+        <auteur>Antoine de Saint-Exupéry</auteur>
+        <tomes>
+            <tome>
+                <pages>96</pages>
+            </tome>
+        </tomes>
+        <infosEdition>
+            <editeur>Gallimard</editeur>
+            <lieuEdition>Paris</lieuEdition>
+            <lieuImpression>Paris</lieuImpression>
+            <ISBN>978-2-07-040850-4</ISBN>
+        </infosEdition>
+    </livre>
+    
+    <!-- Premier article -->
+    <article>
+        <titre>L'intelligence artificielle et ses applications</titre>
+        <auteur>Marie Dupont</auteur>
+        <auteur>Jean Martin</auteur>
+        <infosPublication>
+            <nomJournal>Revue Scientifique Internationale</nomJournal>
+            <pages>23-45</pages>
+            <anneePublication>2023</anneePublication>
+            <numéroJournal>Vol. 42, No. 3</numéroJournal>
+        </infosPublication>
+        <avis>Article très instructif sur les dernières avancées en IA</avis>
+    </article>
+    
+    <!-- Deuxième article -->
+    <article>
+        <titre>Structures de données XML pour les bases documentaires</titre>
+        <auteur>Philippe Leclerc</auteur>
+        <infosPublication>
+            <nomJournal>Journal of Data Management</nomJournal>
+            <pages>112-128</pages>
+            <anneePublication>2022</anneePublication>
+            <numéroJournal>Vol. 15, No. 2</numéroJournal>
+        </infosPublication>
+    </article>
+    
+    
+</biblio>

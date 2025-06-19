@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="exo3s2.xsd">
+    
+    <!-- Premier livre -->
+    <livre>
+        <titre sousTitre="Une histoire de rédemption">Les Misérables</titre>
+        <auteur>Victor Hugo</auteur>
+        <tomes>
+            <tome nbPages="450" sousTitre="Fantine"/>
+            <tome nbPages="400" sousTitre="Cosette"/>
+            <tome nbPages="380" sousTitre="Marius"/>
+        </tomes>
+        <infosEdition>
+            <editeur>Gallimard</editeur>
+            <lieuEdition>Paris</lieuEdition>
+            <lieuImpression>Lyon</lieuImpression>
+            <ISBN>978-2-07-030835-8</ISBN>
+        </infosEdition>
+        <avis>Un chef-d'œuvre de la littérature française</avis>
+    </livre>
+    
+    <!-- Deuxième livre -->
+    <livre>
+        <titre>Le Petit Prince</titre>
+        <auteur>Antoine de Saint-Exupéry</auteur>
+        <tomes>
+            <tome nbPages="96"/>
+        </tomes>
+        <infosEdition>
+            <editeur>Gallimard</editeur>
+            <lieuEdition>Paris</lieuEdition>
+            <lieuImpression>Paris</lieuImpression>
+            <ISBN>978-2-07-040850-4</ISBN>
+        </infosEdition>
+    </livre>
+    
+    <!-- Premier article -->
+    <article>
+        <titre sousTitre="État de l'art">L'intelligence artificielle et ses applications</titre>
+        <auteur>Marie Dupont</auteur>
+        <auteur>Jean Martin</auteur>
+        <infosPublication nomJournal="Revue Scientifique Internationale">
+            <pages>23-45</pages>
+            <anneePublication>2023</anneePublication>
+            <numéroJournal>Vol. 42, No. 3</numéroJournal>
+        </infosPublication>
+        <avis>Article très instructif sur les dernières avancées en IA</avis>
+    </article>
+    
+    <!-- Deuxième article -->
+    <article>
+        <titre>Structures de données XML pour les bases documentaires</titre>
+        <auteur>Philippe Leclerc</auteur>
+        <infosPublication>
+            <pages>112-128</pages>
+            <anneePublication>2022</anneePublication>
+            <numéroJournal>Vol. 15, No. 2</numéroJournal>
+        </infosPublication>
+    </article>
+    
+</biblio>

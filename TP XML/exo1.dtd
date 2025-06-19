@@ -1,0 +1,7 @@
+<!ELEMENT conversation (note+)>
+<!ELEMENT note (to?, from?, heading?, body?)>
+<!ATTLIST note date CDATA #IMPLIED>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>

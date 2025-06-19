@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carnet SYSTEM "exo3.dtd">
+<carnet>
+    <personne id="a1" nom="Smith" prenom="John" sex="Homme" email="John@gmail.com" telephone="1234"/>
+</carnet>

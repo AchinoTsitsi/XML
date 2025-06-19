@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" ?>
+<etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="exo1s2.xsd" mat="E12345">
+    <nom>Ait Allaoua</nom>
+    <prenom>Walid</prenom>
+    <date_naissance>2004-08-08</date_naissance>
+    <note module="DSS">
+        <td>15.5</td>
+        <tp>16.0</tp>
+        <exam>14.0</exam>
+    </note>
+</etudiant>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entreprise SYSTEM "test1.dtd">
+<entreprise>
+  <personne id="p1" projets="pr3 pr4">
+    <nom>Walid</nom>
+  </personne>
+
+  <personne id="p2" projets="pr4">
+    <nom>Farid</nom>
+  </personne>
+
+  <projet id="pr3" responsable="p1">
+    <nom>Application</nom>
+    <descriptif>Gestion de stock</descriptif>
+  </projet>
+
+  <projet id="pr4" responsable="p1 p2">
+    <nom>Site web</nom>
+    <descriptif>Achat des meubles</descriptif>
+  </projet>
+</entreprise>
